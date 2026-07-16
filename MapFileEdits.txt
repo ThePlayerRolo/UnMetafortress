@@ -6,3 +6,7 @@ Replace and inject At Line 117261:
 
 Replace  at Line 117764:
 004d77a0 000150 804de1a0 004da380  4 killEnemyCount__Q43scn4step4hero7CounterCFv 	src.a Counter.o TODO: Would merge into GKI_getfirst, size = 8
+
+Replace at Line 130335:
+0678adc 000008 8067f4dc 0067b6bc  4 setFixSELabel__Q53scn7subgame6common7boxmenu13SelectableBoxFUl 	src.a SelectableBox.o
+TODO: add metaFortress stub

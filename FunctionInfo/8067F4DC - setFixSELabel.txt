@@ -1,0 +1,11 @@
+8067F4DC - scn::subgame::common::boxmenu::SelectableBox::setFixSELabel(u32)
+
+ASM:
+/* 908300DC */ stw r4, 0xdc(r3)
+/* 4E800020 */ blr
+
+Code:
+[OnFrame]
+$Updated scn_subgame_common_boxmenu_SelectableBox_setFixSELabel
+0x8067F4DC:dword:0x908300DC
+0x8067F4E0:dword:0x4E800020

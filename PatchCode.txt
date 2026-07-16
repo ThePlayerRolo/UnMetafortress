@@ -15,3 +15,6 @@ $Replace Metafortress [ThePlayerRolo]
 # scn_step_hero_Counter_killEnemyCount
 0x804de1a0:dword:0x80630000
 0x804de1a4:dword:0x4e800020
+# scn_subgame_common_boxmenu_SelectableBox_setFixSELabel
+0x8067F4DC:dword:0x908300DC
+0x8067F4E0:dword:0x4E800020
