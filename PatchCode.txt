@@ -1,0 +1,17 @@
+[OnFrame]
+$Replace Metafortress [ThePlayerRolo]
+# scn_step_hero_AbilityManager_canSuperBGMRequest
+0x804d2904:dword:0x9421fff0
+0x804d2908:dword:0x7c0802a6
+0x804d290C:dword:0x90010014
+0x804d2910:dword:0x80630000
+0x804d2914:dword:0x4803CD05
+0x804d2918:dword:0x7c600034
+0x804d291C:dword:0x5403d97e
+0x804d2920:dword:0x80010014
+0x804d2924:dword:0x7c0803a6
+0x804d2928:dword:0x38210010
+0x804d292C:dword:0x4e800020
+# scn_step_hero_Counter_killEnemyCount
+0x804de1a0:dword:0x80630000
+0x804de1a4:dword:0x4e800020
