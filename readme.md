@@ -1,6 +1,6 @@
 # The Un-Metafortress Project
 
-A project to replace of all the Metafortress affected code with non Metafortress variants.
+A project to replace of all the Metafortress affected code  in Kirby's Return To Dreamland with non Metafortress variants.
 
 > [!Warning]
 > This project is NOT meant to aid with piracy. An existing copy of the game is required to use the resources present here. (Even for the MAP file!)
