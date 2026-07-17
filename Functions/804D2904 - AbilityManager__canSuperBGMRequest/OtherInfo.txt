@@ -1,0 +1,5 @@
+Note that the metafortressed function asm looks slightly different than the recreation (use of cmpwi 0x0 and beq and li 0x1 instead of cntlzw)
+This is most likely due to the metafortress code generatation affecting the whole function (similar behavior happens if you add asm blocks with code on -O3)
+
+
+TODO: add nops from 0x804D2930 - 0x804D2A9C for the Decompilation patch

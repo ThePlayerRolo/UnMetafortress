@@ -1,2 +1,3 @@
 map/**
 !map/.gitkeep
+tools/__pycache__/**

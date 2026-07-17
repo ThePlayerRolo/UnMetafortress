@@ -1,0 +1,3 @@
+# scn_subgame_common_boxmenu_SelectableBox_setFixSELabel
+0x8067F4DC:dword:0x908300DC
+0x8067F4E0:dword:0x4E800020

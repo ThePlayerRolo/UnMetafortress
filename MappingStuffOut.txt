@@ -1,16 +1,5 @@
-# SUKE01 - Kirby's Return to Dreamland
+# File for seeing which functions need to be added to configure.py
 
-# Whenever a function is finished, remove the hook related to it to represent progress
-
-[OnFrame]
-$Bypass Metafortress [crediar]
-0x80175D3C:dword:0x48000084
-0x80176464:dword:0x60000000
-0x8017682C:dword:0x60000000
-0x80176B48:dword:0x48000090
-0x80176E20:dword:0x60000000
-0x80176FFC:dword:0x4800008C
-0x801771EC:dword:0x60000000
 0x801778E4:dword:0x48000088
 0x80177AAC:dword:0x48000090
 0x80177DE0:dword:0x48000090
@@ -570,6 +559,7 @@ $Bypass Metafortress [crediar]
 0x804D22AC:dword:0x60000000
 0x804D24A8:dword:0x48000088
 0x804D26D0:dword:0x48000084
+0x804D29D0:dword:0x60000000
 0x804D2BC8:dword:0x48000098
 0x804D32B0:dword:0x4800007C
 0x804D34CC:dword:0x60000000
@@ -580,6 +570,7 @@ $Bypass Metafortress [crediar]
 0x804DB5D8:dword:0x48000098
 0x804DB9AC:dword:0x48000090
 0x804DDD5C:dword:0x60000000
+0x804DE238:dword:0x60000000
 0x804DE3D0:dword:0x60000000
 0x804DE56C:dword:0x60000000
 0x804DE72C:dword:0x48000078
@@ -1069,6 +1060,7 @@ $Bypass Metafortress [crediar]
 0x8067F0B0:dword:0x60000000
 0x8067F288:dword:0x60000000
 0x8067F41C:dword:0x4800009C
+0x8067F5B8:dword:0x60000000
 0x8067F72C:dword:0x60000000
 0x8067F9C0:dword:0x4800008C
 0x8067FB6C:dword:0x4800008C

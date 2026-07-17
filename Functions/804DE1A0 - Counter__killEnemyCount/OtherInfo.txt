@@ -1,0 +1,3 @@
+NOTE: Would normally get code merged into GKI_getfirst(), size = 0x8
+
+TODO: For the decompilation patch, patch in the Decompilation/ASM.asm code and add nops from 0x804DE1A8 - 0x804DE2E8

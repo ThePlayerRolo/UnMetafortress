@@ -1,12 +1,18 @@
 TODO: Make this an actual patch file
 
 Replace and inject At Line 117261:
-004cbf04 00002C 804d2904 004ceae4  4 canSuperBGMRequest__Q43scn4step4hero14AbilityManagerCFv 	src.a AbilityManager.o
-004cbf30 000174 804d2930 004ceb10  4 metaFortress_stub_804d2930 	src.a AbilityManager.o
+  004cbf04 00002c 804d2904 004ceae4  4 canSuperBGMRequest__Q43scn4step4hero14AbilityManagerCFv 	src.a AbilityManager.o
+  004cbf30 000174 804d2930 004ceb10  4 metaFortress_stub_804D2930 	src.a AbilityManager.o
 
 Replace  at Line 117764:
-004d77a0 000150 804de1a0 004da380  4 killEnemyCount__Q43scn4step4hero7CounterCFv 	src.a Counter.o TODO: Would merge into GKI_getfirst, size = 8
+NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the future decomp
+  004d77a0 00000c 804de1a0 004da380  4 killEnemyCount__Q43scn4step4hero7CounterCFv 	src.a Counter.o
+  004d77ac 000144 804de1ac 004da38c  4 metaFortress_stub_804DE1AC 	src.a Counter.o
 
 Replace at Line 130335:
-0678adc 000008 8067f4dc 0067b6bc  4 setFixSELabel__Q53scn7subgame6common7boxmenu13SelectableBoxFUl 	src.a SelectableBox.o
+  0678adc 000008 8067f4dc 0067b6bc  4 setFixSELabel__Q53scn7subgame6common7boxmenu13SelectableBoxFUl 	src.a SelectableBox.o
 TODO: add metaFortress stub
+
+Replace at Line 134088:
+  00702044 000044 80708a44 00704c24  4 StringFormatV__4utilFPcUlPCcP16__va_list_struct 	src.a StringFormat.o
+  00702088 000158 80708a88 00704c68  4 metaFortress_stub_80708A88 	src.a StringFormat.o

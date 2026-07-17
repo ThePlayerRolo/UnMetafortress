@@ -1,0 +1,3 @@
+# scn_step_hero_Counter_killEnemyCount
+0x804DE1A0:dword:0x80630000
+0x804DE1A4:dword:0x4E800020

@@ -9,6 +9,12 @@ A project to replace of all the Metafortress affected code in Kirby's Return To 
 - A code patch to use with things such as dolphin
 - Info on each of the currently attempted/un-MetaFortressed functions
 - A "patch" file to apply to the MAP (for analysis in the future)
-- A basic form of progress checking with Progress.ini
+- A configure.py system akin to dtk-template for progress
 
-In the future there is also plans to add a form a program/file to patch the dol file with the Un-MetaFortressed functions.
+TODO:
+Add a program/file to patch the dol file with the Un-MetaFortressed functions.
+Auto generate PatchCode.txt
+Use MappingStuffOut.txt to map out the rest of the metafortressed functions
+
+Credits:
+crediar for the og Bypass Metafortress (Which will be used in the future for unfinished functions since there will probably be conflicts with crediars patches and the replacements with bigger functions)
