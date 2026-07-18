@@ -13,8 +13,14 @@ A project to replace of all the Metafortress affected code in Kirby's Return To 
 
 TODO:
 Add a program/file to patch the dol file with the Un-MetaFortressed functions.
-Auto generate PatchCode.txt
 Use MappingStuffOut.txt to map out the rest of the metafortressed functions
 
+Build and Install Dolphin Patch:
+    1. git clone the Repo
+    2. Run configure.py generate
+    3. In out/PatchCode are your patches.
+    4. Install in dolphin and enable them. BE SURE TO DISABLE THE OG "BYPASS METAFORTRESS" PATCH! There can be conflicts
+    5. Enjoy!
+
 Credits:
-crediar for the og Bypass Metafortress (Which will be used in the future for unfinished functions since there will probably be conflicts with crediars patches and the replacements with bigger functions)
+crediar for the og Bypass Metafortress, which is used for unfinished functions

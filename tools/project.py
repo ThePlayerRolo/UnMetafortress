@@ -1,3 +1,6 @@
+from pathlib import Path
+import os
+
 # fake enum lol
 NoProgress = 0
 WorkInProgress = 1
@@ -37,3 +40,27 @@ class Config:
         print("Current progress: {}% ({} out of {} functions).".format(
             self.getProgressPercent(), self.getDoneFunctions(),
             self.funcAmount))
+
+    def generate_doneFuncs(self) -> str:
+        finalStr = ""
+        for i in self.functions:
+            if i.progress != Done:
+                continue
+            filePath = Path("Functions/{}".format(i.folderName))
+            f = open(filePath / "DolphinPatch.txt")
+            finalStr += f.read() + "\n"
+            f.close()
+        return finalStr
+
+    def generate(self) -> None:
+        outDir = Path("out")
+        if not os.path.exists(outDir):
+            os.makedirs(outDir)
+
+        f = open(outDir / "PatchCode.txt", 'w')
+        f.write("[OnFrame]\n$Replace Metafortress [The Un-Metafortress Project]\n")
+        f.write(self.generate_doneFuncs())
+        f.write("\n")
+        unmappedFunctionsFile = open(Path("Functions/") /  "CrediarPatch.txt")
+        f.write(unmappedFunctionsFile.read() + "\n")
+        f.close()

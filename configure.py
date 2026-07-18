@@ -1,4 +1,5 @@
-# import argparse
+import argparse
+import sys
 # from pathlib import Path
 from tools.project import (
     Function,
@@ -7,6 +8,16 @@ from tools.project import (
     WorkInProgress,
     Done,
 )
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "mode",
+    choices=["configure", "generate"],
+    default="configure",
+    help="Script mode (configure (default), generate)",
+    nargs="?"
+)
+args = parser.parse_args()
 
 MaxFunc = 1392
 
@@ -70,4 +81,9 @@ config.setFunctions(MaxFunc, [
     ),
 ])
 
-config.progressReport()
+if args.mode == "configure":
+    config.progressReport()
+elif args.mode == "generate":
+    config.generate()
+else:
+    sys.exit("Unknown mode: " + args.mode)

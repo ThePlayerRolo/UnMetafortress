@@ -1,3 +1,4 @@
 map/**
 !map/.gitkeep
 tools/__pycache__/**
+out/**
