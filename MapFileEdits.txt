@@ -2,8 +2,8 @@ TODO: Make this an actual patch file
 
 Replace at Line 177247:
 NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the future decomp
-  004cb584 00000C 804d1f84 004ce164  4 setUseCount__Q43scn4step4hero14AbilityManagerFUl 	src.a AbilityManager.o
-  004cb590 00015C 804d1f90 004ce170  4 metaFortress_stub_804D1F90 	src.a AbilityManager.o
+  004cb584 00000c 804d1f84 004ce164  4 setUseCount__Q43scn4step4hero14AbilityManagerFUl 	src.a AbilityManager.o
+  004cb590 00015c 804d1f90 004ce170  4 metaFortress_stub_804D1F90 	src.a AbilityManager.o
 
 Replace and inject At Line 117261:
   004cbf04 00002c 804d2904 004ceae4  4 canSuperBGMRequest__Q43scn4step4hero14AbilityManagerCFv 	src.a AbilityManager.o
@@ -13,6 +13,11 @@ Replace  at Line 117764:
 NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the future decomp
   004d77a0 00000c 804de1a0 004da380  4 killEnemyCount__Q43scn4step4hero7CounterCFv 	src.a Counter.o
   004d77ac 000144 804de1ac 004da38c  4 metaFortress_stub_804DE1AC 	src.a Counter.o
+
+Replace at Line 125305:
+NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the future decomp
+  00600d28 00000c 80607728 00603908  4 setGimmickInterval__Q43scn4step6vacuum8AttackerFUl 	src.a Attacker.o
+  00600d34 000174 80607734 00603914  4 metaFortress_stub_80607734 	src.a Attacker.o
 
 Replace at Line 130335:
   0678adc 000008 8067f4dc 0067b6bc  4 setFixSELabel__Q53scn7subgame6common7boxmenu13SelectableBoxFUl 	src.a SelectableBox.o

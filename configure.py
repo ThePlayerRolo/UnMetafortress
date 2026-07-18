@@ -76,6 +76,11 @@ config.setFunctions(MaxFunc, [
     ),
     Function(
         Done,
+        "scn::step::vacuum::Attacker::setGimmickInterval(unsigned long)",
+        "80607728 - Attacker_setGimmickInterval",
+    ),
+    Function(
+        Done,
         "scn::subgame::common::boxmenu::SelectableBox::setFixSELabel(unsigned long)",
         "8067F4DC - SelectableBox__setFixSELabel",
     ),

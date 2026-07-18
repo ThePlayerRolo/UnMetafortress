@@ -1,0 +1,3 @@
+# Attacker_setGimmickInterval
+0x80607728:dword:0x90830020
+0x8060772C:dword:0x4E800020

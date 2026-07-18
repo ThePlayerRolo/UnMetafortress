@@ -1,0 +1,3 @@
+NOTE: Would normally get code merged into ocoll::Hit::setTeamXlu(unsigned long), size = 0x8
+
+TODO: For the decompilation patch, patch in the Decompilation/ASM.asm code and add random code from 0x80607734 - 0x806078A4

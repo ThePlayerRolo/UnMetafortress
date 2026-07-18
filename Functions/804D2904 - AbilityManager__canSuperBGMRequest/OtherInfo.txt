@@ -2,4 +2,4 @@ Note that the metafortressed function asm looks slightly different than the recr
 This is most likely due to the metafortress code generatation affecting the whole function (similar behavior happens if you add asm blocks with code on -O3)
 
 
-TODO: add nops from 0x804D2930 - 0x804D2A9C for the Decompilation patch
+TODO: add random code from 0x804D2930 - 0x804D2A9C for the Decompilation patch

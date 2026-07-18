@@ -9,7 +9,7 @@ A project to replace of all the Metafortress affected code in Kirby's Return To 
 - A code patch to use with things such as dolphin
 - Info on each of the currently attempted/un-MetaFortressed functions
 - A "patch" file to apply to the MAP (for analysis in the future)
-- A configure.py system akin to dtk-template for progress
+- A configure.py system akin to dtk-template for progress and code patch generation
 
 TODO:
 Add a program/file to patch the dol file with the Un-MetaFortressed functions.
