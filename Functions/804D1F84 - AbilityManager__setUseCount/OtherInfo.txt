@@ -1,0 +1,5 @@
+NOTE: Would normally get code merged into homebutton::gui::PaneManager::setDrawInfo(const nw4hbm::lyt::DrawInfo*), size = 0x8
+
+
+
+TODO: For the decompilation patch, patch in the Decompilation/ASM.asm code and add nops from 0x804D1F90 - 0x804DE2E4

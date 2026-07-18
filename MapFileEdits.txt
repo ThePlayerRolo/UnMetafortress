@@ -1,5 +1,10 @@
 TODO: Make this an actual patch file
 
+Replace at Line 177247:
+NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the future decomp
+  004cb584 00000C 804d1f84 004ce164  4 setUseCount__Q43scn4step4hero14AbilityManagerFUl 	src.a AbilityManager.o
+  004cb590 00015C 804d1f90 004ce170  4 metaFortress_stub_804D1F90 	src.a AbilityManager.o
+
 Replace and inject At Line 117261:
   004cbf04 00002c 804d2904 004ceae4  4 canSuperBGMRequest__Q43scn4step4hero14AbilityManagerCFv 	src.a AbilityManager.o
   004cbf30 000174 804d2930 004ceb10  4 metaFortress_stub_804D2930 	src.a AbilityManager.o

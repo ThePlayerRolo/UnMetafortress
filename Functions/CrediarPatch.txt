@@ -562,7 +562,6 @@ $Bypass Metafortress (For Replace Metafortress) [crediar]
 0x804D1340:dword:0x60000000
 0x804D1364:dword:0x60000000
 0x804D16BC:dword:0x48000080
-0x804D2040:dword:0x60000000
 0x804D22AC:dword:0x60000000
 0x804D24A8:dword:0x48000088
 0x804D26D0:dword:0x48000084

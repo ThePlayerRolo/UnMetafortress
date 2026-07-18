@@ -61,6 +61,11 @@ config.setFunctions(MaxFunc, [
     ),
     Function(
         Done,
+        "scn::step::hero::AbilityManager::setUseCount(unsigned long)",
+        "804D1F84 - AbilityManager__setUseCount",
+    ),
+    Function(
+        Done,
         "scn::step::hero::AbilityManager::canSuperBGMRequest() const",
         "804D2904 - AbilityManager__canSuperBGMRequest",
     ),
