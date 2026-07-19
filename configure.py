@@ -76,6 +76,11 @@ config.setFunctions(MaxFunc, [
     ),
     Function(
         Done,
+        "scn::step::info::HeroStatusIcon::startDamageAnim()",
+        "805CC870 - HeroStatusIcon__startDamageAnim",
+    ),
+    Function(
+        Done,
         "scn::step::vacuum::Attacker::setGimmickInterval(unsigned long)",
         "80607728 - Attacker_setGimmickInterval",
     ),

@@ -14,6 +14,10 @@ NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the fut
   004d77a0 00000c 804de1a0 004da380  4 killEnemyCount__Q43scn4step4hero7CounterCFv 	src.a Counter.o
   004d77ac 000144 804de1ac 004da38c  4 metaFortress_stub_804DE1AC 	src.a Counter.o
 
+Replace at Line 124717:
+  005c5e70 000048 805cc870 005c8a50  4 startDamageAnim__Q43scn4step4info14HeroStatusIconFv 	src.a HeroStatusIcon.o
+  005c5eb8 000138 805cc8b8 005c8a98  4 metaFortress_stub_805CC8B8 	src.a HeroStatusIcon.o
+
 Replace at Line 125305:
 NOTE: This size is 0xC instead of 0x8 to prevent code merging issues for the future decomp
   00600d28 00000c 80607728 00603908  4 setGimmickInterval__Q43scn4step6vacuum8AttackerFUl 	src.a Attacker.o
