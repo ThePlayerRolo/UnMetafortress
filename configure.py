@@ -19,7 +19,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-MaxFunc = 1392
+MaxFunc = 1393
 
 config = Config()
 
