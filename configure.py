@@ -19,6 +19,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
+# TODO This could be bigger
 MaxFunc = 1393
 
 config = Config()
